@@ -1215,10 +1215,6 @@ video {
   flex-wrap: wrap;
 }
 
-.place-items-start {
-  place-items: start;
-}
-
 .place-items-center {
   place-items: center;
 }
@@ -1389,6 +1385,10 @@ video {
 
 .rounded-\[500px\] {
   border-radius: 500px;
+}
+
+.rounded-\[50px\] {
+  border-radius: 50px;
 }
 
 .rounded-\[6px\] {
@@ -1565,6 +1565,11 @@ video {
 .bg-button {
   --tw-bg-opacity: 1;
   background-color: rgb(205 0 1 / var(--tw-bg-opacity, 1));
+}
+
+.bg-\[red\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 0 0 / var(--tw-bg-opacity, 1));
 }
 
 .bg-custom-gradient {
@@ -2016,6 +2021,7 @@ video {
   max-width: 1440px;
   /* height: auto; */
   margin: 0 auto;
+  padding: 0 10px;
 }
 
 .center-slider {
@@ -2063,6 +2069,10 @@ video {
   font-size: 16px;
   color: rgb(75 85 99 / var(--tw-text-opacity, 1));
   line-height: 24px;
+}
+
+.first-line\:w-full::first-line {
+  width: 100%;
 }
 
 .hover\:scale-\[1\.100\]:hover {
@@ -2611,10 +2621,6 @@ video {
     gap: 8px;
   }
 
-  .md\:rounded-\[50px\] {
-    border-radius: 50px;
-  }
-
   .md\:p-\[16px\] {
     padding: 16px;
   }
@@ -2984,14 +2990,6 @@ video {
     gap: 10px;
   }
 
-  .lg\:gap-\[16px\] {
-    gap: 16px;
-  }
-
-  .lg\:gap-\[17px\] {
-    gap: 17px;
-  }
-
   .lg\:gap-\[40px\] {
     gap: 40px;
   }
@@ -3355,10 +3353,6 @@ video {
 
   .xl\:place-items-start {
     place-items: start;
-  }
-
-  .xl\:place-items-center {
-    place-items: center;
   }
 
   .xl\:items-start {
