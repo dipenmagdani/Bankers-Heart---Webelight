@@ -1215,6 +1215,10 @@ video {
   flex-wrap: wrap;
 }
 
+.place-items-start {
+  place-items: start;
+}
+
 .place-items-center {
   place-items: center;
 }
@@ -3353,16 +3357,16 @@ video {
     place-items: start;
   }
 
+  .xl\:place-items-center {
+    place-items: center;
+  }
+
   .xl\:items-start {
     align-items: flex-start;
   }
 
   .xl\:items-baseline {
     align-items: baseline;
-  }
-
-  .xl\:items-stretch {
-    align-items: stretch;
   }
 
   .xl\:justify-start {
